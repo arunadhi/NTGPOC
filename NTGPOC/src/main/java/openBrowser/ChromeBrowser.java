@@ -12,7 +12,7 @@ public class ChromeBrowser {
 		System.setProperty("webdriver.ie.driver", "E:\\NTG Jenkins\\JenkinsPOC\\driver\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
 		driver.get("https://www.amazon.in");
-		system.out.println("Success");
+		
 		
 	}
 	
